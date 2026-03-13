@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #6a11cb, #2575fc);
+      color: #333;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #2575fc;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #2575fc;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      margin-bottom: 30px;
+    }
+
+    .card h2 {
+      color: #6a11cb;
+      margin-bottom: 15px;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .skills li {
+      background: #2575fc;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .projects .project {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: rgba(255,255,255,0.9);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SHALNI SINGH</h1>
+    <p>Student | Learner | Web Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am learning web development using HTML and CSS. This is my
+        personal website designed by me. I want to grow my skills and build
+        beautiful websites.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="card">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Basic JavaScript</li>
+        <li>C Programming</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <div class="project">• Personal Portfolio Website</div>
+      <div class="project">• Simple Calculator (HTML & CSS)</div>
+      <div class="project">• Student Result Page</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: SHALNIEX10@GMAIL.com</p>
+      <p>Phone: +91 9153908040</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 SHALNI SINGH | Designed with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
